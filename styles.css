@@ -1,0 +1,169 @@
+@media (prefers-reduced-motion: no-preference) {
+    * {
+      scroll-behavior: smooth;
+    }
+  }
+
+* {
+    margin: 0;
+}
+
+html {
+    scroll-padding-top: 70px;
+}
+
+main {
+    min-width: 400px;
+    max-width: 800px;
+    background-color: #eeeeee;
+    margin: 0 auto;
+}
+
+
+h1 {
+    text-align: center;
+    padding: 10px 0;
+    font-size: 2em;
+}
+
+h2 {
+    text-align: center;
+}
+
+/* Nav section */
+
+nav {
+    background-color: white;
+    position: sticky;
+    top: 0;
+}
+
+nav ul {
+    list-style: none;
+    font-size: 1rem;
+    display: flex;
+    justify-content: flex-end;
+    margin: 0;
+}
+
+nav > ul > li {
+    padding: 15px 10px;
+    font-weight: bold;
+    margin: 0;
+}
+
+nav > ul > li:hover {
+    background-color: #eeeeee;
+}
+
+nav > ul > li > a {
+    text-decoration: none;
+    color: black;
+}
+
+/* Picture plus small intro */
+
+.showcase {
+    max-width: 700px;
+    margin: 0 50px;
+    padding: 25px 20px;
+    background-color: white;
+}
+
+.showcase figure {
+    margin: 0 auto;
+}
+
+.showcase figure img {
+    width: 100%;
+}
+
+.showcase > .info > p {
+    margin-bottom: 0;
+}
+
+/* Story section */
+
+.story-container {
+    background-color: white;
+    max-width: 700px;
+    margin: 40px 50px;
+    padding: 20px 25px;
+}
+
+.header-albums {
+    border-bottom: 3px solid white;
+    padding-bottom: 7px;
+    margin-left: 50px;
+    max-width: 300px;
+}
+
+.container-year {
+    display: flex;
+    flex-direction: row;
+    max-width: 700px;
+    margin: 0 auto;
+    border-bottom: 1px solid grey;
+    padding: 0 25px;
+}
+
+.year {
+    width: 25%;
+    margin: auto 10px;
+    font-weight: bold;
+    padding: 0;
+}
+
+.year-description {
+    width: 80%;
+    padding: 0;
+}
+
+.year-description > p {
+    margin: 0;
+    padding: 10px;
+    text-align: justify;
+}
+
+.container-year:last-of-type {
+    border-bottom: none;
+}
+
+/* Albums */
+
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 30px auto;
+    width: 280px;
+}
+
+.container figure {
+    background-color: white;
+    padding: 15px;
+    margin: 20px;
+}
+
+.container > figure > img {
+    width: 300px;
+    padding: 10px;
+
+}
+.container > figure > figcaption {
+    font-weight: bold;
+    padding-top: 10px;
+}
+
+
+.album-date {
+    display: block;
+    float: right;
+    padding: 15px 10px 0;
+    font-size: 14px;
+    font-style: italic;
+}
+
+/* Footer */
+
+
+
